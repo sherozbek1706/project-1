@@ -51,6 +51,10 @@ form {
   grid-row: 1 / 2;
 }
 
+.name_up{
+  text-transform: lowercase;
+}
+
 form.sign-up-form {
   opacity: 0;
   z-index: 1;
