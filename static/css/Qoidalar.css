@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+}
+.container{
+    width: 70%;
+    padding: 20px 50px;
+    margin: 20px auto ;
+    background-color: rgba(0, 0, 0, 0.050);
+    /* border: 1px solid red; */
+}
+.Menu{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.Menu h1{
+    font-size: 60px;
+    font-weight: 700;
+    padding: 20px 0;
+
+}
+.tab_name{
+    font-size: 40px;
+    font-weight: 600;
+    padding: 10px 0;
+}
+.text{
+    text-align: justify;
+}
+@media only screen and (max-width: 1100px) {
+    .container {
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .Menu h1{
+        font-size: 40px;
+    }
+    .tab_name{
+        font-size: 24px;
+    }
+}
+@media only screen and (max-width: 560px) {
+    .container{
+        padding: 10px 30px;
+    }
+    .Menu h1{
+        font-size: 30px;
+
+    }
+    .tab_name{
+        font-size: 20px;
+    }
+    .text{
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 500px){
+    .Menu h1{
+        font-size: 26px;
+
+    }
+    .tab_name{
+        font-size: 16px;
+    }
+    .text{
+        font-size: 12px;
+    }
+}   
+.Menu p{
+    font-size: 12px;
+}
